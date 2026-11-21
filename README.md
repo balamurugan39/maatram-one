@@ -1,33 +1,134 @@
-# Maatramone
+# MAATRAM ONE
 
-this is my project
+### A Digital Platform by Maatram Foundation
 
-login page 
-for user (student) and admin 
+Empowering Students. Connecting Communities. Creating Opportunities.
 
-make it perfectly it is one website with two different login all modules are defined
+## About
 
-build it perfectly as much you can i need a websitee soon
+MAATRAM ONE is a centralized digital platform developed for Maatram Foundation. It connects students, mentors, alumni, volunteers, and administrators through a unified digital ecosystem.
 
-This project was built with [Lovable](https://lovable.dev).
+The platform focuses on educational support, mentorship, skill development, career opportunities, volunteering, and alumni engagement.
 
-**Live app**: https://maatramone.lovable.app
+## Features
 
-## Build with Lovable
+- Secure User Authentication
+- Admin Dashboard
+- Mentorship Management
+- Academic Support
+- Skills Development and Placement Opportunities
+- Volunteering Management
+- Sangamam Alumni Network
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/32cbab41-0912-41d6-a9e0-a8df93755cfc).
+## Technology Stack
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+Frontend:
+- React
+- TypeScript
+- TanStack Start
+- Vite
+- Tailwind CSS
 
-## Development
+Backend:
+- Supabase
+- PostgreSQL
+- Supabase Authentication
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Tools and Deployment:
+- Git
+- GitHub
+- Vercel
+- npm
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+## Project Structure
+
+maatram-one/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── integrations/
+│   └── routes/
+├── drizzle/
+│   └── migrations/
+├── .gitignore
+├── package.json
+├── vite.config.ts
+└── README.md
+
+## Installation
+
+### 1. Clone the Repository
+
+    git clone https://github.com/balamurugan39/maatram-one.git
+
+### 2. Navigate to the Project
+
+    cd maatram-one
+
+### 3. Install Dependencies
+
+    npm install
+
+### 4. Configure Environment Variables
+
+Create a .env file in the project root directory.
+
+Add your Supabase configuration:
+
+    VITE_SUPABASE_URL=YOUR_SUPABASE_URL
+    VITE_SUPABASE_PUBLISHABLE_KEY=YOUR_SUPABASE_PUBLISHABLE_KEY
+
+Replace the placeholders with your actual Supabase project values.
+
+Never upload your .env file or Supabase secret keys to GitHub.
+
+### 5. Start the Development Server
+
+    npm run dev
+
+Open the local URL displayed in your terminal.
+
+## Database Configuration
+
+MAATRAM ONE uses Supabase and PostgreSQL for database and authentication services.
+
+Make sure the required database migrations have been executed in your Supabase project.
+
+## Deployment
+
+The project is maintained using GitHub and is intended to be hosted on Vercel.
+
+GitHub Repository:
+https://github.com/balamurugan39/maatram-one
+
+Frontend Hosting: Vercel
+
+Backend: Supabase
+
+Database: PostgreSQL
+
+## Vision
+
+To create an inclusive digital ecosystem that empowers individuals, connects communities, and creates meaningful opportunities through technology.
+
+## Mission
+
+- Improve access to educational support.
+- Connect students with mentors.
+- Encourage skill development and career readiness.
+- Strengthen alumni relationships.
+- Promote volunteering and social responsibility.
+- Use technology to create positive social impact.
+
+## Organization
+
+Maatram Foundation
+
+Project Name: MAATRAM ONE
+
+Empowering Change. Connecting People. Building a Better Tomorrow.
+
+---
+
+Copyright 2026 Maatram Foundation. All rights reserved.
